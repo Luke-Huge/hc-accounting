@@ -395,7 +395,8 @@
       {"id":"SAV-2026-03-06-01","date":"2026-03-06","type":"deposit","amount":850.00,"from":"Business Checking (...1372)","notes":"Online Transfer"},
       {"id":"SAV-2026-03-13-01","date":"2026-03-13","type":"deposit","amount":500.00,"from":"Business Checking (...1372)","notes":"Online Transfer"},
       {"id":"SAV-2026-03-20-01","date":"2026-03-20","type":"withdrawal","amount":3000.00,"from":"Business Checking (...1372)","notes":"Online Transfer To Checking"},
-      {"id":"SAV-2026-03-27-01","date":"2026-03-27","type":"deposit","amount":622.00,"from":"Business Checking (...1372)","notes":"Online Transfer"}
+      {"id":"SAV-2026-03-27-01","date":"2026-03-27","type":"deposit","amount":622.00,"from":"Business Checking (...1372)","notes":"Online Transfer"},
+      {"id":"SAV-2026-03-31-01","date":"2026-03-31","type":"interest","amount":0.14,"from":"","notes":"Interest Payment"}
     ]
   },
   "creditCards": [
