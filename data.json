@@ -15,7 +15,8 @@
       "Chase Business Total Savings Feb 2026 (Acct ...1577)",
       "Chase Business Checking Mar 2026 (Acct ...1372)",
       "Chase Business Total Savings Mar 2026 (Acct ...1577)",
-      "Chase Ink Card 2450 Mar 2026 (Mar 1-31)"
+      "Chase Ink Card 2450 Mar 2026 (Mar 1-31)",
+      "Amex Blue Business Cash 31005 Mar 2026 (Since Last Statement)"
     ]
   },
   "transactions": [
@@ -348,7 +349,14 @@
     {"id":"2026-03-25-C02","date":"2026-03-25","type":"expense","description":"SuperWhisper — AI Transcription","amount":9.06,"category":"Software & Tools","cardOwner":"Ink Card 2450 (Luke)","recurring":true,"notes":""},
     {"id":"2026-03-26-C01","date":"2026-03-26","type":"expense","description":"Electrify America — EV Charging","amount":14.65,"category":"Luke","cardOwner":"Ink Card 2450 (Luke)","recurring":false,"notes":"Nyx*Electrify"},
     {"id":"2026-03-28-C01","date":"2026-03-28","type":"expense","description":"Electrify America — EV Charging","amount":33.05,"category":"Luke","cardOwner":"Ink Card 2450 (Luke)","recurring":false,"notes":"Nyx*Electrify"},
-    {"id":"2026-03-29-C01","date":"2026-03-29","type":"expense","description":"GoHighLevel — Sub-account","amount":50.00,"category":"Software & Tools","cardOwner":"Ink Card 2450 (Luke)","recurring":false,"notes":"HighLevel Inc"}
+    {"id":"2026-03-29-C01","date":"2026-03-29","type":"expense","description":"GoHighLevel — Sub-account","amount":50.00,"category":"Software & Tools","cardOwner":"Ink Card 2450 (Luke)","recurring":false,"notes":"HighLevel Inc"},
+
+    {"id":"2026-03-24-A01","date":"2026-03-24","type":"expense","description":"Amazon.com","amount":113.64,"category":"Miscellaneous","cardOwner":"Amex 31005 (Zac)","recurring":false,"notes":""},
+    {"id":"2026-03-25-A01","date":"2026-03-25","type":"expense","description":"Apple Online Store — Equipment","amount":1945.26,"category":"Miscellaneous","cardOwner":"Amex 31005 (Zac)","recurring":false,"notes":"Equipment purchase"},
+    {"id":"2026-03-26-A01","date":"2026-03-26","type":"expense","description":"AdSpy — Ad Intelligence","amount":149.00,"category":"Software & Tools","cardOwner":"Amex 31005 (Zac)","recurring":true,"notes":""},
+    {"id":"2026-03-30-A01","date":"2026-03-30","type":"expense","description":"Persuasion Experience","amount":3200.00,"category":"Miscellaneous","cardOwner":"Amex 31005 (Zac)","recurring":false,"notes":"Sheridan WY — marketing company trial"},
+    {"id":"2026-03-30-A02","date":"2026-03-30","type":"expense","description":"Persuasion Experience","amount":3200.00,"category":"Miscellaneous","cardOwner":"Amex 31005 (Zac)","recurring":false,"notes":"Sheridan WY — marketing company trial"},
+    {"id":"2026-03-30-A03","date":"2026-03-30","type":"expense","description":"Amex Credit — K6B2:0001","amount":-250.00,"category":"Miscellaneous","cardOwner":"Amex 31005 (Zac)","recurring":false,"notes":"Amex promotional spend credit — $6k in first 3 months"}
 
   ],
   "categories": {
@@ -405,39 +413,44 @@
         "regularRate": 21.99
       },
       "payments": [],
-      "charges": []
+      "charges": [],
+      "notes": "No statements provided yet — placeholder"
     },
     {
       "id": "zac-amex",
-      "label": "Zac's Amex Card",
+      "label": "Zac's Amex Blue Business Cash",
       "owner": "Zac Stoll",
       "issuer": "Amex",
-      "lastFour": "XXXX",
-      "creditLimit": 10000.00,
-      "currentBalance": 0.00,
+      "lastFour": "1005",
+      "creditLimit": 25000.00,
+      "currentBalance": 8471.90,
       "apr": {
         "introRate": 0,
-        "introEndDate": "2027-01-01",
+        "introEndDate": "2027-04-20",
         "regularRate": 24.99
       },
       "payments": [],
-      "charges": []
+      "charges": [],
+      "balanceAsOf": "2026-04-03",
+      "notes": "Statement cycle closes Apr 20. Current period: Mar 21 - Apr 20."
     },
     {
       "id": "luke-chase",
-      "label": "Luke's Chase Card",
+      "label": "Luke's Chase Ink Unlimited",
       "owner": "Luke Heugly",
       "issuer": "Chase",
       "lastFour": "2450",
-      "creditLimit": 10000.00,
-      "currentBalance": 0.00,
+      "creditLimit": 5000.00,
+      "currentBalance": 4992.64,
       "apr": {
         "introRate": 0,
-        "introEndDate": "2027-01-01",
-        "regularRate": 21.99
+        "introEndDate": "2026-06-11",
+        "regularRate": 22.74
       },
       "payments": [],
-      "charges": []
+      "charges": [],
+      "balanceAsOf": "2026-03-11",
+      "notes": "Statement balance as of 03/11/26. 0% intro expires 06/11/26 — 69 days remaining."
     }
   ],
   "skipped": {
