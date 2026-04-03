@@ -607,6 +607,124 @@
       .donut-wrap { flex-direction: column; align-items: flex-start; }
       .donut-chart { width: 100px; height: 100px; }
     }
+
+    /* ── Credit Card Tracker ── */
+    .cc-overview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      padding: 24px 32px;
+    }
+    .cc-card {
+      background: var(--navy-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+    }
+    .cc-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .cc-card-header h3 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .cc-issuer-badge {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .cc-issuer-badge.chase { background: rgba(0, 125, 241, 0.15); color: #60a5fa; }
+    .cc-issuer-badge.amex { background: rgba(0, 200, 150, 0.15); color: #34d399; }
+
+    .cc-stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .cc-stat-row .cc-stat-value {
+      color: var(--text);
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .cc-apr-section {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    .cc-apr-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .cc-apr-header h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .cc-apr-badge {
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 6px;
+    }
+    .cc-apr-badge.active { background: var(--green-bg); color: var(--green); }
+    .cc-apr-badge.expired { background: var(--red-bg); color: var(--red); }
+
+    .cc-progress-track {
+      width: 100%;
+      height: 8px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 12px 0;
+    }
+    .cc-progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+    .cc-progress-fill.green { background: var(--green); }
+    .cc-progress-fill.yellow { background: var(--yellow); }
+    .cc-progress-fill.red { background: var(--red); }
+
+    .cc-countdown {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .cc-countdown .cc-days-left {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .cc-empty {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    .cc-empty svg {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 12px;
+      opacity: 0.3;
+    }
+
+    @media (max-width: 768px) {
+      .cc-overview { padding: 16px; gap: 16px; }
+    }
   </style>
 </head>
 <body>
@@ -626,6 +744,22 @@
     <button class="sidebar-item" data-view="quarter">
       <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 16l4-8 4 4 6-6"/></svg>
       Quarterly Breakdown
+    </button>
+  </div>
+
+  <div class="sidebar-section">
+    <div class="sidebar-section-label">Credit Cards</div>
+    <button class="sidebar-item" data-view="creditCard" data-card="zac-chase">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+      Zac's Chase Card
+    </button>
+    <button class="sidebar-item" data-view="creditCard" data-card="zac-amex">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+      Zac's Amex Card
+    </button>
+    <button class="sidebar-item" data-view="creditCard" data-card="luke-chase">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+      Luke's Chase Card
     </button>
   </div>
 
@@ -674,6 +808,7 @@ let currentMonth = null;
 let currentQuarter = null; // e.g. '2026-Q1'
 let currentFilter = 'all';
 let currentView = 'month';
+let currentCard = 'zac-chase';
 let tableOpen = false;
 
 const DONUT_COLORS = ['#f87171','#fb923c','#fbbf24','#a78bfa','#60a5fa','#34d399','#f472b6','#94a3b8'];
@@ -733,6 +868,7 @@ function setupSidebar() {
       document.querySelectorAll('.sidebar-item').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       currentView = btn.dataset.view;
+      if (btn.dataset.card) currentCard = btn.dataset.card;
       currentFilter = 'all';
       tableOpen = false;
       closeMobileMenu();
@@ -838,6 +974,12 @@ function updatePageTitle() {
     document.getElementById('pageSubtitle').textContent = 'Quarterly income & expense report';
     document.getElementById('monthNav').style.display = 'none';
     document.getElementById('quarterNav').style.display = 'flex';
+  } else if (currentView === 'creditCard') {
+    const cc = (DATA.creditCards || []).find(c => c.id === currentCard);
+    document.getElementById('pageTitle').textContent = cc ? cc.label : 'Credit Card';
+    document.getElementById('pageSubtitle').textContent = '0% APR tracker & balance overview';
+    document.getElementById('monthNav').style.display = 'none';
+    document.getElementById('quarterNav').style.display = 'none';
   } else {
     document.getElementById('pageTitle').textContent = formatMonthLabelFull(currentMonth);
     document.getElementById('pageSubtitle').textContent = 'Income, expenses, and net profit';
@@ -950,6 +1092,8 @@ function renderView() {
     html += renderTable(txns);
   } else if (currentView === 'quarter') {
     html += renderQuarter();
+  } else if (currentView === 'creditCard') {
+    html += renderCreditCard(currentCard);
   }
 
   c.innerHTML = html;
@@ -1425,6 +1569,116 @@ function renderTable(txns, forceType) {
   return html;
 }
 
+
+function renderCreditCard(cardId) {
+  const cc = (DATA.creditCards || []).find(c => c.id === cardId);
+  if (!cc) return '<div class="empty-state"><p>Card not found</p></div>';
+
+  const today = new Date();
+  const apr = cc.apr || {};
+  const endDate = apr.introEndDate ? new Date(apr.introEndDate) : null;
+  const startDate = apr.introStartDate ? new Date(apr.introStartDate) : null;
+
+  let daysLeft = null, totalDays = null, pctUsed = 0, progressClass = 'green';
+  if (endDate) {
+    daysLeft = Math.ceil((endDate - today) / (1000 * 60 * 60 * 24));
+    if (startDate) {
+      totalDays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
+      pctUsed = Math.min(100, Math.max(0, Math.round(((today - startDate) / (endDate - startDate)) * 100)));
+    } else {
+      pctUsed = daysLeft < 0 ? 100 : 0;
+    }
+    progressClass = daysLeft < 0 ? 'red' : daysLeft < 60 ? 'yellow' : 'green';
+  }
+
+  const isActive = daysLeft !== null && daysLeft > 0;
+  const aprBadge = daysLeft === null ? '' :
+    isActive
+      ? `<span class="cc-apr-badge active">Active</span>`
+      : `<span class="cc-apr-badge expired">Expired</span>`;
+
+  const fmtD = d => { const dt = new Date(d); return (dt.getMonth()+1) + '/' + dt.getDate() + '/' + String(dt.getFullYear()).slice(2); };
+
+  let html = `<div class="cc-overview" style="grid-template-columns:1fr;">`;
+
+  html += `<div class="cc-card">
+    <div class="cc-card-header">
+      <h3>${cc.label}</h3>
+      <span class="cc-issuer-badge ${cc.issuer.toLowerCase()}">${cc.issuer}</span>
+    </div>
+    <div class="cc-stat-row">
+      <span>Owner</span>
+      <span class="cc-stat-value">${cc.owner}</span>
+    </div>
+    <div class="cc-stat-row">
+      <span>Card</span>
+      <span class="cc-stat-value">•••• ${cc.lastFour}</span>
+    </div>
+    <div class="cc-stat-row">
+      <span>Credit Limit</span>
+      <span class="cc-stat-value">${fmt(cc.creditLimit)}</span>
+    </div>
+    <div class="cc-stat-row">
+      <span>Current Balance</span>
+      <span class="cc-stat-value" style="color:var(--yellow);">${fmt(cc.currentBalance)}</span>
+    </div>`;
+
+  if (endDate) {
+    html += `<div class="cc-apr-section">
+      <div class="cc-apr-header">
+        <h4>0% Intro APR Period</h4>
+        ${aprBadge}
+      </div>
+      <div class="cc-stat-row">
+        <span>Regular APR (after)</span>
+        <span class="cc-stat-value">${apr.regularRate}%</span>
+      </div>
+      ${startDate ? `<div class="cc-stat-row"><span>Promo Start</span><span class="cc-stat-value">${fmtD(apr.introStartDate)}</span></div>` : ''}
+      <div class="cc-stat-row">
+        <span>Promo Ends</span>
+        <span class="cc-stat-value">${fmtD(apr.introEndDate)}</span>
+      </div>
+      ${totalDays ? `<div class="cc-progress-track"><div class="cc-progress-fill ${progressClass}" style="width:${pctUsed}%"></div></div>` : ''}
+      <div class="cc-countdown">
+        <span>${totalDays ? `${pctUsed}% of promo used` : ''}</span>
+        <span class="cc-days-left">${daysLeft < 0 ? 'Expired' : daysLeft + ' days left'}</span>
+      </div>
+    </div>`;
+  } else {
+    html += `<div class="cc-apr-section">
+      <div class="cc-apr-header"><h4>0% Intro APR Period</h4></div>
+      <div class="cc-empty" style="padding:24px 0;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+        <div>No APR promo dates set yet</div>
+        <div style="font-size:12px;margin-top:4px;color:#6b7280;">Add introStartDate &amp; introEndDate to data.json</div>
+      </div>
+    </div>`;
+  }
+
+  html += '</div>'; // close cc-card
+
+  // Placeholder charges section
+  const charges = cc.charges || [];
+  html += `<div class="cc-card">
+    <div class="cc-card-header"><h3>Charges</h3><span style="font-size:12px;color:var(--text-muted);">${charges.length} transactions</span></div>`;
+  if (!charges.length) {
+    html += `<div class="cc-empty">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 14l6-6m0 6L9 8"/><circle cx="12" cy="12" r="10"/></svg>
+      <div>No charges recorded yet</div>
+      <div style="font-size:12px;margin-top:4px;color:#6b7280;">Charges will appear here once added</div>
+    </div>`;
+  } else {
+    html += `<table><thead><tr><th>Date</th><th>Description</th><th style="text-align:right;">Amount</th></tr></thead><tbody>`;
+    charges.forEach(c => {
+      html += `<tr><td>${fmtDate(c.date)}</td><td>${c.description}</td><td class="amount-cell expense">-${fmt(c.amount)}</td></tr>`;
+    });
+    html += '</tbody></table>';
+  }
+  html += '</div>';
+
+  html += '</div>'; // close cc-overview
+  return html;
+}
 
 function exportCSV() {
   let txns;
