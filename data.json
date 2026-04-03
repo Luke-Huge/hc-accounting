@@ -262,7 +262,7 @@
     {"id":"2026-03-02-E05","date":"2026-03-02","type":"expense","description":"Zelle — RV Accounting Solutions","amount":60.00,"category":"Affiliates","cardOwner":"Business Checking","recurring":false,"notes":"Accountant"},
     {"id":"2026-03-02-E06","date":"2026-03-02","type":"expense","description":"Starbucks","amount":12.82,"category":"Luke","cardOwner":"Luke Heugly","recurring":false,"notes":""},
     {"id":"2026-03-03-E01","date":"2026-03-03","type":"expense","description":"Starbucks","amount":14.17,"category":"Luke","cardOwner":"Luke Heugly","recurring":false,"notes":""},
-    {"id":"2026-03-04-E01","date":"2026-03-04","type":"expense","description":"Gusto — Fee","amount":6.41,"category":"Team Payroll","cardOwner":"Business Checking","recurring":false,"notes":"Gusto processing fee"},
+    {"id":"2026-03-04-E01","date":"2026-03-04","type":"expense","description":"Gusto — Processing Fee","amount":6.41,"category":"Banking & Payment Processing","cardOwner":"Business Checking","recurring":false,"notes":""},
     {"id":"2026-03-04-E02","date":"2026-03-04","type":"expense","description":"Starbucks","amount":12.39,"category":"Luke","cardOwner":"Luke Heugly","recurring":false,"notes":""},
     {"id":"2026-03-05-E01","date":"2026-03-05","type":"expense","description":"Lins E St George Starbucks","amount":15.13,"category":"Luke","cardOwner":"Luke Heugly","recurring":false,"notes":"St George UT"},
     {"id":"2026-03-06-E01","date":"2026-03-06","type":"expense","description":"Gateway Services — Web Payment","amount":63.72,"category":"Banking & Payment Processing","cardOwner":"Business Checking","recurring":true,"notes":""},
