@@ -400,23 +400,6 @@
   },
   "creditCards": [
     {
-      "id": "zac-chase",
-      "label": "Zac's Chase Card",
-      "owner": "Zac Stoll",
-      "issuer": "Chase",
-      "lastFour": "XXXX",
-      "creditLimit": 10000.00,
-      "currentBalance": 0.00,
-      "apr": {
-        "introRate": 0,
-        "introEndDate": "2027-01-01",
-        "regularRate": 21.99
-      },
-      "payments": [],
-      "charges": [],
-      "notes": "No statements provided yet — placeholder"
-    },
-    {
       "id": "zac-amex",
       "label": "Zac's Amex Blue Business Cash",
       "owner": "Zac Stoll",
