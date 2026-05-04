@@ -1322,7 +1322,17 @@ function renderCategoryPanel(expenses) {
 }
 
 function renderSavingsPanel(scope) {
-  const transfers = (DATA.savings && DATA.savings.transfers) || [];
+  let accounts = (DATA.savings && DATA.savings.accounts) || [];
+  if (!accounts.length && DATA.savings && DATA.savings.transfers) {
+    accounts = [{id: 'savings', name: 'Savings', startingBalance: 0, transfers: DATA.savings.transfers}];
+  }
+  if (!accounts.length) return '';
+  return accounts.map((acct, i) => renderSavingsAccountPanel(acct, scope, i)).join('');
+}
+
+function renderSavingsAccountPanel(acct, scope, idx) {
+  const transfers = acct.transfers || [];
+  const startingBalance = acct.startingBalance || 0;
   let filtered;
   if (scope === 'quarter') {
     const qi = getQuarterInfo(currentQuarter);
@@ -1348,22 +1358,22 @@ function renderSavingsPanel(scope) {
   } else {
     endDate = currentMonth + '-31';
   }
-  let balance = 0;
+  let balance = startingBalance;
   allSorted.forEach(t => {
     if (t.date <= endDate) {
       balance += (t.type === 'withdrawal' ? -t.amount : t.amount);
     }
   });
 
+  const name = acct.name || 'Savings';
   let html = `<div class="breakdown-panel">
-    <div class="breakdown-title">Savings — ${fmt(balance)} balance</div>`;
+    <div class="breakdown-title">${name} — ${fmt(balance)} balance</div>`;
 
   if (!filtered.length) {
-    html += '<div style="color:var(--text-muted);font-size:13px;">No savings activity</div></div>';
+    html += '<div style="color:var(--text-muted);font-size:13px;">No activity this period</div></div>';
     return html;
   }
 
-  // Compressed summary rows
   if (deposits.length || interest.length) {
     html += `<div style="display:flex;justify-content:space-between;padding:6px 0;font-size:14px;">
       <span style="color:var(--text-muted);">Deposited</span>
@@ -1382,7 +1392,7 @@ function renderSavingsPanel(scope) {
     <span style="color:var(--accent);font-weight:700;">${netSaved >= 0 ? '+' : '-'}${fmt(Math.abs(netSaved))}</span>
   </div>`;
 
-  const detailId = scope === 'quarter' ? 'sav-q' : 'sav-m';
+  const detailId = (scope === 'quarter' ? 'sav-q-' : 'sav-m-') + (acct.id || idx);
   html += `<div class="breakdown-row" onclick="toggleDetail('${detailId}', this)" style="margin-top:4px;border-bottom:none;">
     <span class="breakdown-label" style="font-size:12px;color:var(--accent);cursor:pointer;"><span class="expand-arrow">&#9654;</span>View Transfers</span>
   </div>`;
@@ -1390,7 +1400,7 @@ function renderSavingsPanel(scope) {
   filtered.sort((a, b) => a.date.localeCompare(b.date)).forEach(t => {
     const color = t.type === 'withdrawal' ? 'var(--red)' : 'var(--green)';
     const sign = t.type === 'withdrawal' ? '-' : '+';
-    const label = t.type === 'interest' ? 'Interest' : (t.type === 'deposit' ? 'From Checking' : 'To Checking');
+    const label = t.type === 'interest' ? 'Interest' : (t.type === 'deposit' ? (t.from && t.from.indexOf('Checking') < 0 && t.from ? 'From ' + t.from.split('(')[0].trim() : 'From Checking') : 'To Checking');
     html += `<div class="breakdown-detail-item">
       <span class="detail-date">${fmtDate(t.date)}</span>
       <span class="detail-desc">${label}</span>
