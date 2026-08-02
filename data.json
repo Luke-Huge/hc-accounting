@@ -7595,7 +7595,7 @@
       "category": "Banking & Payment Processing",
       "cardOwner": "Business Checking",
       "recurring": false,
-      "notes": "Outgoing wire \u2014 Bull Building LLC (syndication deployment)"
+      "notes": "Outgoing wire \u2014 Bull Building LLC self-funded loan disbursement (HC-063020261)"
     },
     {
       "id": "2026-07-02-C01",
@@ -8335,7 +8335,7 @@
       "category": "Banking & Payment Processing",
       "cardOwner": "Business Checking",
       "recurring": false,
-      "notes": "Outgoing wire \u2014 Gifted Youth Music And Arts Studios (syndication deployment)"
+      "notes": "Outgoing wire \u2014 Gifted Youth Music And Arts Studio LLC self-funded loan disbursement (HC-071720261)"
     },
     {
       "id": "2026-07-20-I01",
@@ -8373,10 +8373,11 @@
       "id": "2026-07-22-I01",
       "date": "2026-07-22",
       "type": "income",
-      "description": "ACH Settlement \u2014 Merchant Deposit",
+      "description": "Bull Building LLC \u2014 Loan Payment #1 (HC-063020261)",
       "amount": 1166.67,
-      "category": "Merchant Deposits",
-      "notes": ""
+      "category": "Loan Repayments",
+      "notes": "Self-funded deal. Collected via ACH Settlement (ID 1542272); swept to Huge Syndication (...1577) same day. Payment log date 7/17, posted 7/22. Principal-vs-interest split TBD by CPA.",
+      "dealSource": "Bull Building LLC (HC-063020261)"
     },
     {
       "id": "2026-07-23-C01",
@@ -8585,10 +8586,23 @@
       "id": "2026-07-29-I02",
       "date": "2026-07-29",
       "type": "income",
-      "description": "ACH Settlement \u2014 Merchant Deposit",
-      "amount": 884.38,
-      "category": "Merchant Deposits",
-      "notes": ""
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #1 (HC-071720261)",
+      "amount": 234.38,
+      "category": "Loan Repayments",
+      "notes": "Self-funded deal, ACH-debited from the borrower. Arrived inside the 07/29 ACH Settlement deposit of $884.38 ($234.38 loan payment + $650 Savanna Pools commission). Principal-vs-interest split TBD by CPA.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)"
+    },
+    {
+      "id": "2026-07-29-I03",
+      "date": "2026-07-29",
+      "type": "income",
+      "description": "Savanna Pools \u2014 Commission",
+      "amount": 650.0,
+      "category": "Commissions",
+      "dealSource": "Savanna Pools",
+      "fundedDate": "",
+      "paidDate": "2026-07-29",
+      "notes": "Second Savanna Pools commission this month (first was the $1,300 Fedwire on 07/24). Arrived inside the 07/29 ACH Settlement deposit of $884.38."
     },
     {
       "id": "2026-07-30-D01",
@@ -8602,15 +8616,16 @@
       "notes": "VA payment via Remitly; debit card 3826"
     },
     {
-      "id": "2026-07-30-E10",
+      "id": "2026-07-30-I01",
       "date": "2026-07-30",
-      "type": "expense",
-      "description": "ACH Settlement \u2014 Merchant Debit",
-      "amount": 234.38,
-      "category": "Banking & Payment Processing",
-      "cardOwner": "Business Checking",
-      "recurring": false,
-      "notes": ""
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment Reversal",
+      "amount": -234.38,
+      "category": "Loan Repayments",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-07-30",
+      "notes": "FLAG: ACH Settlement 'Elec Debit' -$234.38 on 07/30, one day after the $234.38 payment came in. Booked as a reversal of that payment, netting Gifted Youth to $0 for July. Confirm with Luke whether this was a returned item or a separate pull."
     },
     {
       "id": "2026-07-31-A01",
@@ -8651,6 +8666,7 @@
     "income": [
       "Commissions",
       "Merchant Deposits",
+      "Loan Repayments",
       "Referral Fees",
       "Other Income"
     ]
@@ -8909,7 +8925,7 @@
             "type": "withdrawal",
             "amount": 9500.0,
             "from": "Business Checking (...1372)",
-            "notes": "Transfer To Checking \u2014 funded Bull Building LLC wire (syndication deployment)"
+            "notes": "Transfer To Checking \u2014 funded Bull Building LLC self-funded loan disbursement (HC-063020261)"
           },
           {
             "id": "SYN-2026-07-03-01",
@@ -8941,7 +8957,7 @@
             "type": "withdrawal",
             "amount": 4750.0,
             "from": "Business Checking (...1372)",
-            "notes": "Transfer To Checking \u2014 funded Gifted Youth Music And Arts Studios wire (syndication deployment)"
+            "notes": "Transfer To Checking \u2014 funded Gifted Youth Music And Arts Studio LLC self-funded loan disbursement (HC-071720261)"
           },
           {
             "id": "SYN-2026-07-22-01",
@@ -9201,8 +9217,8 @@
       "06/15 American Express ACH Pmt \u2014 $134 (Amex 1005 CC payment)",
       "06/22 American Express ACH Pmt \u2014 $3,000 (Amex 1005 CC payment)",
       "06/23 Payment To Chase Card 2450 \u2014 $1,253.57 (CC payment)",
-      "07/01 Domestic Wire To Bull Building LLC \u2014 $9,500 (SYNDICATION DEPLOYMENT, not an expense; pre-funded same day by $9,500 transfer in from ...1577)",
-      "07/20 Domestic Wire To Gifted Youth Music And Arts Studios \u2014 $4,750 (SYNDICATION DEPLOYMENT, not an expense; pre-funded same day by $4,750 transfer in from ...1577)",
+      "07/01 Domestic Wire To Bull Building LLC \u2014 $9,500 (SELF-FUNDED LOAN DISBURSEMENT / note receivable HC-063020261, not an expense; pre-funded same day by $9,500 transfer in from ...1577)",
+      "07/20 Domestic Wire To Gifted Youth Music And Arts Studio LLC \u2014 $4,750 (SELF-FUNDED LOAN DISBURSEMENT / note receivable HC-071720261, not an expense; pre-funded same day by $4,750 transfer in from ...1577)",
       "07/01 Transfer From Sav 1577 \u2014 $9,500 (savings)",
       "07/03 Transfer To MMA 1577 \u2014 $700 (savings)",
       "07/10 Transfer To MMA 1577 \u2014 $2,500 (savings)",
