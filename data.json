@@ -46,7 +46,8 @@
       "Syndication Checking Jul 2026 (Acct ...9869) \u2014 NEW, opened 07/23",
       "Chase Ink Card 2450 Jul 2026 (Jul 1-31)",
       "Amex Blue Business Cash 31005 Jul 2026 (Jul 1-31)",
-      "Gusto contractor payment history Jul 2026"
+      "Gusto contractor payment history Jul 2026",
+      "Wells Fargo Signify Business Cash 4172 Jul 2026 (Jul 1-31) \u2014 NEW card, first month"
     ]
   },
   "transactions": [
@@ -7364,7 +7365,7 @@
       "category": "Banking & Payment Processing",
       "cardOwner": "Business Checking",
       "recurring": false,
-      "notes": "FLAG: credit-card chargeback under dispute (being contested \u2014 may reverse if won); flag for CPA"
+      "notes": "RESOLVED: Huge won the dispute. Reversed by 2026-07-20-E01 ($3,000 credit back on 07/20). Net effect across Jun+Jul is zero. Flag for CPA \u2014 it straddles two months."
     },
     {
       "id": "2026-06-24-E11",
@@ -7598,6 +7599,17 @@
       "notes": "Outgoing wire \u2014 Bull Building LLC self-funded loan disbursement (HC-063020261)"
     },
     {
+      "id": "2026-07-01-W01",
+      "date": "2026-07-01",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 8.01,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-02-C01",
       "date": "2026-07-02",
       "type": "expense",
@@ -7641,6 +7653,17 @@
       "dealSource": "Figure Lending",
       "fundedDate": "",
       "paidDate": "2026-07-02"
+    },
+    {
+      "id": "2026-07-02-W01",
+      "date": "2026-07-02",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 28.04,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
     },
     {
       "id": "2026-07-03-C01",
@@ -7721,6 +7744,28 @@
       "paidDate": "2026-07-03"
     },
     {
+      "id": "2026-07-03-W01",
+      "date": "2026-07-03",
+      "type": "expense",
+      "description": "Sol Agave \u2014 American Fork UT",
+      "amount": 328.11,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": "Restaurant / business meal"
+    },
+    {
+      "id": "2026-07-03-W02",
+      "date": "2026-07-03",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 24.18,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-04-C01",
       "date": "2026-07-04",
       "type": "expense",
@@ -7751,6 +7796,39 @@
       "category": "Software & Tools",
       "cardOwner": "Ink Card 2450 (Luke)",
       "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-05-W01",
+      "date": "2026-07-05",
+      "type": "expense",
+      "description": "Tesla Supercharger",
+      "amount": 30.89,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-05-W02",
+      "date": "2026-07-05",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 20.08,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-05-W03",
+      "date": "2026-07-05",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 23.14,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
       "notes": ""
     },
     {
@@ -7868,6 +7946,17 @@
       "paidDate": "2026-07-07"
     },
     {
+      "id": "2026-07-08-W01",
+      "date": "2026-07-08",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 21.86,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-09-C01",
       "date": "2026-07-09",
       "type": "expense",
@@ -7900,6 +7989,28 @@
       "dealSource": "Idea 247 Inc",
       "fundedDate": "",
       "paidDate": "2026-07-09"
+    },
+    {
+      "id": "2026-07-09-W01",
+      "date": "2026-07-09",
+      "type": "expense",
+      "description": "HighLevel Inc.",
+      "amount": 50.0,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-09-W02",
+      "date": "2026-07-09",
+      "type": "expense",
+      "description": "Bizee.com \u2014 Registered Agent",
+      "amount": 149.0,
+      "category": "Entity Management",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
     },
     {
       "id": "2026-07-10-D01",
@@ -7968,6 +8079,28 @@
       "notes": "1099 contractor via Gusto (new payee, Jul 2026) \u2014 funds Jul 16 run"
     },
     {
+      "id": "2026-07-10-W01",
+      "date": "2026-07-10",
+      "type": "expense",
+      "description": "Bizee.com",
+      "amount": 29.0,
+      "category": "Entity Management",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-10-W02",
+      "date": "2026-07-10",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 18.53,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-12-A01",
       "date": "2026-07-12",
       "type": "expense",
@@ -7999,6 +8132,17 @@
       "cardOwner": "Amex 31005 (Zac)",
       "recurring": true,
       "notes": ""
+    },
+    {
+      "id": "2026-07-12-W01",
+      "date": "2026-07-12",
+      "type": "expense",
+      "description": "Expedia",
+      "amount": 2958.34,
+      "category": "Travel",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": "Business travel booking"
     },
     {
       "id": "2026-07-13-A01",
@@ -8070,6 +8214,17 @@
       "paidDate": "2026-07-13"
     },
     {
+      "id": "2026-07-13-W01",
+      "date": "2026-07-13",
+      "type": "expense",
+      "description": "Slack \u2014 Team Messaging",
+      "amount": 37.36,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
       "id": "2026-07-14-A01",
       "date": "2026-07-14",
       "type": "expense",
@@ -8103,6 +8258,17 @@
       "notes": "Washington UT"
     },
     {
+      "id": "2026-07-14-W01",
+      "date": "2026-07-14",
+      "type": "expense",
+      "description": "Apollo.io \u2014 Sales Intelligence",
+      "amount": 15.52,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
       "id": "2026-07-15-A01",
       "date": "2026-07-15",
       "type": "expense",
@@ -8133,7 +8299,7 @@
       "category": "Software & Tools",
       "cardOwner": "Amex 31005 (Zac)",
       "recurring": false,
-      "notes": "FLAG: unclear merchant descriptor, likely an AI/SaaS subscription. Confirm."
+      "notes": "Software subscription (Luke confirmed Aug 2026); Amex descriptor is truncated."
     },
     {
       "id": "2026-07-16-I01",
@@ -8160,6 +8326,28 @@
       "paidDate": "2026-07-16"
     },
     {
+      "id": "2026-07-16-W01",
+      "date": "2026-07-16",
+      "type": "expense",
+      "description": "Apollo.io \u2014 Sales Intelligence",
+      "amount": 55.51,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-16-W02",
+      "date": "2026-07-16",
+      "type": "expense",
+      "description": "Slack \u2014 EasySavings Rebate",
+      "amount": -9.34,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": "Rebate credit"
+    },
+    {
       "id": "2026-07-17-A01",
       "date": "2026-07-17",
       "type": "expense",
@@ -8168,7 +8356,7 @@
       "category": "Software & Tools",
       "cardOwner": "Amex 31005 (Zac)",
       "recurring": false,
-      "notes": "FLAG: unclear merchant descriptor, likely an AI/SaaS subscription. Confirm."
+      "notes": "Software subscription (Luke confirmed Aug 2026); Amex descriptor is truncated."
     },
     {
       "id": "2026-07-17-A02",
@@ -8179,7 +8367,7 @@
       "category": "Software & Tools",
       "cardOwner": "Amex 31005 (Zac)",
       "recurring": false,
-      "notes": "FLAG: unclear merchant descriptor, likely an AI/SaaS subscription. Confirm."
+      "notes": "Software subscription (Luke confirmed Aug 2026); Amex descriptor is truncated."
     },
     {
       "id": "2026-07-17-A03",
@@ -8201,7 +8389,7 @@
       "category": "Software & Tools",
       "cardOwner": "Amex 31005 (Zac)",
       "recurring": false,
-      "notes": "FLAG: unclear merchant descriptor, likely Claude Max subscription. Confirm."
+      "notes": "Software subscription (Luke confirmed Aug 2026); Amex descriptor is truncated."
     },
     {
       "id": "2026-07-17-E10",
@@ -8294,6 +8482,39 @@
       "paidDate": "2026-07-17"
     },
     {
+      "id": "2026-07-17-W01",
+      "date": "2026-07-17",
+      "type": "expense",
+      "description": "Apollo.io \u2014 Sales Intelligence",
+      "amount": 81.08,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-18-W01",
+      "date": "2026-07-18",
+      "type": "expense",
+      "description": "Tesla Supercharger",
+      "amount": 16.96,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-18-W02",
+      "date": "2026-07-18",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 25.82,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-19-A01",
       "date": "2026-07-19",
       "type": "expense",
@@ -8359,6 +8580,17 @@
       "paidDate": "2026-07-21"
     },
     {
+      "id": "2026-07-21-W01",
+      "date": "2026-07-21",
+      "type": "expense",
+      "description": "Beanstalk Consulting",
+      "amount": 184.0,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-22-D01",
       "date": "2026-07-22",
       "type": "expense",
@@ -8410,7 +8642,7 @@
       "category": "Miscellaneous",
       "cardOwner": "Luke Heugly",
       "recurring": false,
-      "notes": "FLAG: business phone service, first time seen. St George UT, PIN debit. Confirm category (no Utilities category exists)."
+      "notes": "Business equipment + service \u2014 Huge bought a business phone and plan; recurring from Jul 2026 forward (Luke). Booked to Miscellaneous per the Mar 2026 Apple equipment precedent."
     },
     {
       "id": "2026-07-24-E10",
@@ -8492,6 +8724,28 @@
       "paidDate": "2026-07-24"
     },
     {
+      "id": "2026-07-25-W01",
+      "date": "2026-07-25",
+      "type": "expense",
+      "description": "Tesla Supercharger",
+      "amount": 12.98,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-25-W02",
+      "date": "2026-07-25",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 11.77,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
       "id": "2026-07-27-A01",
       "date": "2026-07-27",
       "type": "expense",
@@ -8571,6 +8825,28 @@
       "paidDate": "2026-07-27"
     },
     {
+      "id": "2026-07-27-W01",
+      "date": "2026-07-27",
+      "type": "expense",
+      "description": "Electrify America \u2014 EV Charging",
+      "amount": 22.47,
+      "category": "Luke",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-07-28-W01",
+      "date": "2026-07-28",
+      "type": "expense",
+      "description": "Apple.com/Bill",
+      "amount": 0.99,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
       "id": "2026-07-29-I01",
       "date": "2026-07-29",
       "type": "income",
@@ -8605,6 +8881,17 @@
       "notes": "Second Savanna Pools commission this month (first was the $1,300 Fedwire on 07/24). Arrived inside the 07/29 ACH Settlement deposit of $884.38."
     },
     {
+      "id": "2026-07-29-W01",
+      "date": "2026-07-29",
+      "type": "expense",
+      "description": "Skool.com \u2014 Community Subscription",
+      "amount": 9.0,
+      "category": "Software & Tools",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
       "id": "2026-07-30-D01",
       "date": "2026-07-30",
       "type": "expense",
@@ -8625,7 +8912,7 @@
       "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
       "fundedDate": "",
       "paidDate": "2026-07-30",
-      "notes": "FLAG: ACH Settlement 'Elec Debit' -$234.38 on 07/30, one day after the $234.38 payment came in. Booked as a reversal of that payment, netting Gifted Youth to $0 for July. Confirm with Luke whether this was a returned item or a separate pull."
+      "notes": "The 07/30 ACH pull was DECLINED (Luke); the borrower wired the money instead, so loan payment #1 is good \u2014 the makeup wire should land in Aug 2026. Net Gifted Youth cash in July is $0, which is correct on a cash basis. Payment #2 still pending."
     },
     {
       "id": "2026-07-31-A01",
@@ -8648,6 +8935,17 @@
       "cardOwner": "Business Checking",
       "recurring": false,
       "notes": "Distribution"
+    },
+    {
+      "id": "2026-07-31-W01",
+      "date": "2026-07-31",
+      "type": "expense",
+      "description": "Expedia",
+      "amount": 307.78,
+      "category": "Travel",
+      "cardOwner": "Wells Fargo 4172 (Luke)",
+      "recurring": false,
+      "notes": "Business travel booking (the 07/30 pending line is the same charge, ref 73509344748473 \u2014 not double-counted)"
     }
   ],
   "categories": {
@@ -9160,6 +9458,24 @@
       "charges": [],
       "balanceAsOf": "2026-07-31",
       "notes": "Jul 1-31: charges $615.54 (plus a Jun 30 Electrify America $16.19 straggler booked to June); payment $1,291.95 on 07/24 (autopay). Actual current balance $24.99 (QuickQuack 07/23 only) per Chase for Business as of Aug 2 \u2014 supersedes the June estimate of $1,116.81, which ran high. On 22.74% APR (0% intro expired 06/11/26)."
+    },
+    {
+      "id": "luke-wf",
+      "label": "Wells Fargo (...4172)",
+      "owner": "Luke Heugly",
+      "issuer": "Wells Fargo",
+      "lastFour": "4172",
+      "creditLimit": 4500.0,
+      "currentBalance": 4461.08,
+      "apr": {
+        "introRate": 0,
+        "introEndDate": "",
+        "regularRate": 0
+      },
+      "payments": [],
+      "charges": [],
+      "balanceAsOf": "2026-07-31",
+      "notes": "Wells Fargo Signify Business Cash. FIRST MONTH OF USE \u2014 Jul 2026. Opened at $0; Jul charges $4,461.08 net of a -$9.34 Slack rebate, no payments yet. Balance $4,461.08 of a $4,500 line = 99% utilization, only $38 available. Min payment $40 due 08/14, autopay on. Statement cycle closes the 20th (07/20 statement balance $3,912.09 ties exactly). APR / 0% intro terms NOT YET PROVIDED \u2014 need from Luke."
     }
   ],
   "skipped": {

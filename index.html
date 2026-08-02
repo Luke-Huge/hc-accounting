@@ -757,6 +757,10 @@
       <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
       Chase Ink (...2450)
     </button>
+    <button class="sidebar-item" data-view="creditCard" data-card="luke-wf">
+      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2"/><path d="M1 10h22"/></svg>
+      Wells Fargo (...4172)
+    </button>
   </div>
 
   <div class="sidebar-bottom">
@@ -1609,7 +1613,8 @@ function renderCreditCard(cardId) {
   const cardOwnerMap = {
     'zac-chase': 'Chase (Zac)',
     'zac-amex': 'Amex 31005 (Zac)',
-    'luke-chase': 'Ink Card 2450 (Luke)'
+    'luke-chase': 'Ink Card 2450 (Luke)',
+    'luke-wf': 'Wells Fargo 4172 (Luke)'
   };
   const ownerPattern = cardOwnerMap[cardId] || '';
   const cardTxns = DATA.transactions.filter(t => t.cardOwner && t.cardOwner.includes(ownerPattern) && ownerPattern);
