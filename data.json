@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-02",
+    "lastUpdated": "2026-09-23",
     "owners": [
       "Zac Stoll",
       "Luke Heugly"
@@ -47,7 +47,16 @@
       "Chase Ink Card 2450 Jul 2026 (Jul 1-31)",
       "Amex Blue Business Cash 31005 Jul 2026 (Jul 1-31)",
       "Gusto contractor payment history Jul 2026",
-      "Wells Fargo Signify Business Cash 4172 Jul 2026 (Jul 1-31) \u2014 NEW card, first month"
+      "Wells Fargo Signify Business Cash 4172 Jul 2026 (Jul 1-31) \u2014 NEW card, first month",
+      "Chase Business Checking Aug 2026 (Acct ...1372)",
+      "Huge Syndication Aug 2026 (Acct ...1577)",
+      "Huge Savings Aug 2026 (Acct ...1766)",
+      "Syndication Checking Aug 2026 (Acct ...9869)",
+      "Chase Ink Card 2450 Aug 2026 (Aug 1-31)",
+      "Amex Blue Business Cash 31005 Aug 2026 (Aug 1-31)",
+      "Gusto contractor payment history Aug 2026",
+      "Self-funded loan PAYMENT LOG (through 9/18/26)",
+      "Gusto contractor payment history \u2014 Sep 3 2026 run (funded by 08/28 debits)"
     ]
   },
   "transactions": [
@@ -8946,6 +8955,1178 @@
       "cardOwner": "Wells Fargo 4172 (Luke)",
       "recurring": false,
       "notes": "Business travel booking (the 07/30 pending line is the same charge, ref 73509344748473 \u2014 not double-counted)"
+    },
+    {
+      "id": "2026-08-01-A01",
+      "date": "2026-08-01",
+      "type": "expense",
+      "description": "iSoftPull \u2014 Credit Pulls",
+      "amount": 73.53,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-01-D01",
+      "date": "2026-08-01",
+      "type": "expense",
+      "description": "Google Workspace",
+      "amount": 69.86,
+      "category": "Software & Tools",
+      "cardOwner": "Luke Heugly",
+      "recurring": true,
+      "notes": "Debit card 3826"
+    },
+    {
+      "id": "2026-08-03-E10",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 1394.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC. Matches Zac's 07/31 $1,394 draw"
+    },
+    {
+      "id": "2026-08-03-E11",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 29.28,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-E12",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "M Merchant \u2014 Merchant Fees",
+      "amount": 241.45,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-E13",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 126.88,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-E14",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "Gusto \u2014 AJS Trading LLC (Aaron Sonego)",
+      "amount": 1215.0,
+      "category": "Team Payroll",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Funds Aug 7 run"
+    },
+    {
+      "id": "2026-08-03-E15",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "Gusto \u2014 Peak Point Consulting LLC",
+      "amount": 150.0,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto \u2014 funds Aug 7 run"
+    },
+    {
+      "id": "2026-08-03-E16",
+      "date": "2026-08-03",
+      "type": "expense",
+      "description": "Gusto \u2014 Processing Fee",
+      "amount": 25.61,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-I01",
+      "date": "2026-08-03",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 5200.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-I02",
+      "date": "2026-08-03",
+      "type": "income",
+      "description": "National Legacy \u2014 Savanna Pools LLC",
+      "amount": 3253.58,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / Savanna Pools LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-03"
+    },
+    {
+      "id": "2026-08-03-I03",
+      "date": "2026-08-03",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 1200.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-03-I04",
+      "date": "2026-08-03",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #1 makeup (HC-071720261)",
+      "amount": 235.0,
+      "category": "Loan Repayments",
+      "notes": "Payment #1 (log 7/24, Cleared). Replaces the declined 07/30 ACH pull (reversed in July as 2026-07-30-I01); borrower paid $235.00 direct (ACH \"Loan\"), $0.62 over the $234.38 due. Swept to Huge Syndication (...1577) same day. Principal/interest split left to Lucy.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-03"
+    },
+    {
+      "id": "2026-08-03-I05",
+      "date": "2026-08-03",
+      "type": "income",
+      "description": "Bull Building LLC \u2014 Loan Payment #2 (HC-063020261)",
+      "amount": 1166.67,
+      "category": "Loan Repayments",
+      "notes": "Payment #2 (log 7/31, Cleared). Arrived as \"Online Transfer From Chk ...9789\" directly into Huge Syndication (...1577) \u2014 not via Huge Checking. Principal/interest split left to Lucy.",
+      "dealSource": "Bull Building LLC (HC-063020261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-03"
+    },
+    {
+      "id": "2026-08-04-E10",
+      "date": "2026-08-04",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 146.4,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-04-E11",
+      "date": "2026-08-04",
+      "type": "expense",
+      "description": "Utah State Tax Commission \u2014 Tax Payment",
+      "amount": 337.5,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Utah Tax Paymnt"
+    },
+    {
+      "id": "2026-08-04-F01",
+      "date": "2026-08-04",
+      "type": "expense",
+      "description": "Domestic Incoming Wire Fee",
+      "amount": 15.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Emerald Group wire"
+    },
+    {
+      "id": "2026-08-04-I01",
+      "date": "2026-08-04",
+      "type": "income",
+      "description": "Emerald Group Holdings LLC \u2014 Wire",
+      "amount": 6475.0,
+      "category": "Commissions",
+      "notes": "Emerald Group Holdings = VitaCap \u2014 brokering commission.",
+      "dealSource": "Emerald Group Holdings LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-04"
+    },
+    {
+      "id": "2026-08-04-I02",
+      "date": "2026-08-04",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 6000.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-04-I03",
+      "date": "2026-08-04",
+      "type": "income",
+      "description": "Live Oak Banking \u2014 Commission",
+      "amount": 1125.0,
+      "category": "Commissions",
+      "notes": "A/P ACH",
+      "dealSource": "Live Oak Banking",
+      "fundedDate": "",
+      "paidDate": "2026-08-04"
+    },
+    {
+      "id": "2026-08-05-C01",
+      "date": "2026-08-05",
+      "type": "expense",
+      "description": "Xero \u2014 Accounting Software",
+      "amount": 0.81,
+      "category": "Software & Tools",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": false,
+      "notes": "XERO US INV 7688670"
+    },
+    {
+      "id": "2026-08-05-E10",
+      "date": "2026-08-05",
+      "type": "expense",
+      "description": "Gateway Services \u2014 Web Payment",
+      "amount": 109.59,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-05-E11",
+      "date": "2026-08-05",
+      "type": "expense",
+      "description": "HighLevel Inc.",
+      "amount": 103.55,
+      "category": "Software & Tools",
+      "cardOwner": "Business Checking",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-05-I01",
+      "date": "2026-08-05",
+      "type": "income",
+      "description": "Fusion Funding \u2014 Commission (Mama Stella)",
+      "amount": 1060.0,
+      "category": "Commissions",
+      "notes": "New lender Aug 2026",
+      "dealSource": "Fusion Funding / Mama Stella",
+      "fundedDate": "",
+      "paidDate": "2026-08-05"
+    },
+    {
+      "id": "2026-08-05-I02",
+      "date": "2026-08-05",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #2 (HC-071720261)",
+      "amount": 234.38,
+      "category": "Loan Repayments",
+      "notes": "Payment #2 (log 7/31, Cleared). ACH Settlement (ID 1542272) single item. Principal/interest split left to Lucy.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-05"
+    },
+    {
+      "id": "2026-08-06-E10",
+      "date": "2026-08-06",
+      "type": "expense",
+      "description": "IRS \u2014 Tax Payment",
+      "amount": 765.01,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "USATAXPYMT"
+    },
+    {
+      "id": "2026-08-06-E11",
+      "date": "2026-08-06",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 61.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-06-E12",
+      "date": "2026-08-06",
+      "type": "expense",
+      "description": "Zelle \u2014 Jackson Mayne",
+      "amount": 75.0,
+      "category": "Miscellaneous",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Business expense Huge was covering (per Luke) \u2014 not a contractor/affiliate payment"
+    },
+    {
+      "id": "2026-08-06-I01",
+      "date": "2026-08-06",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 2500.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-07-A01",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Amex \u2014 Cash Rebate Statement Credit",
+      "amount": -25.03,
+      "category": "Miscellaneous",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-07-C01",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Corporate Creations \u2014 Registered Agent",
+      "amount": 95.0,
+      "category": "Entity Management",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-07-D01",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Beans & Brews 2501",
+      "amount": 12.81,
+      "category": "Luke",
+      "cardOwner": "Luke Heugly",
+      "recurring": false,
+      "notes": "Debit card 3826"
+    },
+    {
+      "id": "2026-08-07-E10",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "IRS \u2014 Tax Payment",
+      "amount": 990.0,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "USATAXPYMT"
+    },
+    {
+      "id": "2026-08-07-E11",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "TX Workforce Commission \u2014 UI Tax",
+      "amount": 193.13,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Ui Tax"
+    },
+    {
+      "id": "2026-08-07-E12",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Utah Workforce Services \u2014 UI Tax",
+      "amount": 90.0,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Utah Uitax"
+    },
+    {
+      "id": "2026-08-07-E13",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "IRS \u2014 Tax Payment",
+      "amount": 84.0,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "USATAXPYMT"
+    },
+    {
+      "id": "2026-08-07-E14",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Utah Workforce Services \u2014 UI Tax",
+      "amount": 56.2,
+      "category": "Taxes",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Utah Uitax"
+    },
+    {
+      "id": "2026-08-07-E15",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Zelle \u2014 Zac Stoll",
+      "amount": 5000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Distribution"
+    },
+    {
+      "id": "2026-08-07-E16",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 2500.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC"
+    },
+    {
+      "id": "2026-08-07-E17",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 2500.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC"
+    },
+    {
+      "id": "2026-08-07-E18",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Gusto \u2014 La Vau Real Estate, Inc.",
+      "amount": 3734.5,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto \u2014 funds Aug 13 run"
+    },
+    {
+      "id": "2026-08-07-E19",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Gusto \u2014 Valiant Knight, LLC",
+      "amount": 2910.0,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto \u2014 funds Aug 13 run"
+    },
+    {
+      "id": "2026-08-07-E20",
+      "date": "2026-08-07",
+      "type": "expense",
+      "description": "Gusto \u2014 CFM Motors LLC",
+      "amount": 240.0,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto (new payee Aug 2026, confirmed Affiliate by Luke) \u2014 funds Aug 13 run"
+    },
+    {
+      "id": "2026-08-07-I01",
+      "date": "2026-08-07",
+      "type": "income",
+      "description": "National Legacy \u2014 The Conner Group LLC (TCG) #1",
+      "amount": 6191.64,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / The Conner Group LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-07"
+    },
+    {
+      "id": "2026-08-09-C01",
+      "date": "2026-08-09",
+      "type": "expense",
+      "description": "Google One",
+      "amount": 2.14,
+      "category": "Software & Tools",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-10-D01",
+      "date": "2026-08-10",
+      "type": "expense",
+      "description": "FedEx Office",
+      "amount": 20.2,
+      "category": "Luke",
+      "cardOwner": "Luke Heugly",
+      "recurring": false,
+      "notes": "Saint George UT; debit card 3826"
+    },
+    {
+      "id": "2026-08-10-I01",
+      "date": "2026-08-10",
+      "type": "income",
+      "description": "Idea 247 Inc \u2014 Idealoan Commission",
+      "amount": 3000.0,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "Idea 247 Inc",
+      "fundedDate": "",
+      "paidDate": "2026-08-10"
+    },
+    {
+      "id": "2026-08-12-D01",
+      "date": "2026-08-12",
+      "type": "expense",
+      "description": "Remitly \u2014 VA Payment",
+      "amount": 22.99,
+      "category": "Affiliates",
+      "cardOwner": "Luke Heugly",
+      "recurring": false,
+      "notes": "VA payment via Remitly; debit card 3826"
+    },
+    {
+      "id": "2026-08-12-E10",
+      "date": "2026-08-12",
+      "type": "expense",
+      "description": "Zelle \u2014 Robb Pittman",
+      "amount": 250.0,
+      "category": "Miscellaneous",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Business expense Huge was covering (per Luke) \u2014 not a contractor/affiliate payment"
+    },
+    {
+      "id": "2026-08-12-F01",
+      "date": "2026-08-12",
+      "type": "expense",
+      "description": "Domestic Incoming Wire Fee",
+      "amount": 15.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Emerald Group wire"
+    },
+    {
+      "id": "2026-08-12-I01",
+      "date": "2026-08-12",
+      "type": "income",
+      "description": "Emerald Group Holdings LLC \u2014 Wire",
+      "amount": 6770.0,
+      "category": "Commissions",
+      "notes": "Emerald Group Holdings = VitaCap \u2014 brokering commission.",
+      "dealSource": "Emerald Group Holdings LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-12"
+    },
+    {
+      "id": "2026-08-12-I02",
+      "date": "2026-08-12",
+      "type": "income",
+      "description": "National Legacy \u2014 The Conner Group LLC #2",
+      "amount": 1087.91,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / The Conner Group LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-12"
+    },
+    {
+      "id": "2026-08-12-I03",
+      "date": "2026-08-12",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #3 (HC-071720261)",
+      "amount": 234.38,
+      "category": "Loan Repayments",
+      "notes": "Payment #3 (log 8/7, Cleared). ACH Settlement (ID 1542272). Swept to Syndication Checking (...9869) 08/14. Principal/interest split left to Lucy.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-12"
+    },
+    {
+      "id": "2026-08-12-I04",
+      "date": "2026-08-12",
+      "type": "income",
+      "description": "HighLevel \u2014 Affiliate Payout",
+      "amount": 76.47,
+      "category": "Other Income",
+      "notes": "EDI Pymnts affiliate payout",
+      "dealSource": "High Level Inc",
+      "fundedDate": "",
+      "paidDate": "2026-08-12"
+    },
+    {
+      "id": "2026-08-13-A01",
+      "date": "2026-08-13",
+      "type": "expense",
+      "description": "Smartlead \u2014 Cold Email",
+      "amount": 94.0,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": true,
+      "notes": "Amount partly hidden in screenshot; read as $94.00 (matches prior Smartlead charge)"
+    },
+    {
+      "id": "2026-08-13-A02",
+      "date": "2026-08-13",
+      "type": "expense",
+      "description": "1Password",
+      "amount": 35.15,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-13-D01",
+      "date": "2026-08-13",
+      "type": "expense",
+      "description": "Remitly \u2014 VA Payment",
+      "amount": 22.99,
+      "category": "Affiliates",
+      "cardOwner": "Luke Heugly",
+      "recurring": false,
+      "notes": "VA payment via Remitly; debit card 3826"
+    },
+    {
+      "id": "2026-08-13-F01",
+      "date": "2026-08-13",
+      "type": "expense",
+      "description": "Domestic Incoming Wire Fee",
+      "amount": 15.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Transportation Alliance Bank wire"
+    },
+    {
+      "id": "2026-08-13-I01",
+      "date": "2026-08-13",
+      "type": "income",
+      "description": "Transportation Alliance Bank \u2014 Broker Commission (Ads With ME Inc)",
+      "amount": 1880.0,
+      "category": "Commissions",
+      "notes": "Fedwire, Ref: Ads With ME Inc / Broker Commission",
+      "dealSource": "Ads With ME Inc (Transportation Alliance Bank)",
+      "fundedDate": "",
+      "paidDate": "2026-08-13"
+    },
+    {
+      "id": "2026-08-14-C01",
+      "date": "2026-08-14",
+      "type": "expense",
+      "description": "Bizee.com \u2014 Registered Agent",
+      "amount": 29.0,
+      "category": "Entity Management",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-14-E10",
+      "date": "2026-08-14",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 12.2,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-14-E11",
+      "date": "2026-08-14",
+      "type": "expense",
+      "description": "Zelle \u2014 Zac Stoll",
+      "amount": 3000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Distribution"
+    },
+    {
+      "id": "2026-08-14-E12",
+      "date": "2026-08-14",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 3000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC"
+    },
+    {
+      "id": "2026-08-14-E13",
+      "date": "2026-08-14",
+      "type": "expense",
+      "description": "Gusto \u2014 AJS Trading LLC (Aaron Sonego)",
+      "amount": 2660.0,
+      "category": "Team Payroll",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Funds Aug 20 run"
+    },
+    {
+      "id": "2026-08-14-I01",
+      "date": "2026-08-14",
+      "type": "income",
+      "description": "Kapitus \u2014 Commission (Strategic Funding)",
+      "amount": 12500.0,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "Kapitus (Strategic Funding)",
+      "fundedDate": "",
+      "paidDate": "2026-08-14"
+    },
+    {
+      "id": "2026-08-14-I02",
+      "date": "2026-08-14",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 500.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-15-A01",
+      "date": "2026-08-15",
+      "type": "expense",
+      "description": "Cloudflare \u2014 Web Infrastructure",
+      "amount": 5.33,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-17-A01",
+      "date": "2026-08-17",
+      "type": "expense",
+      "description": "NeverBounce \u2014 Email Verification",
+      "amount": 52.23,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-17-A02",
+      "date": "2026-08-17",
+      "type": "expense",
+      "description": "\"MAX\" \u2014 San Francisco CA",
+      "amount": 212.8,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-17-I01",
+      "date": "2026-08-17",
+      "type": "income",
+      "description": "Fundation Ops \u2014 Commission",
+      "amount": 127.4,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "Fundation Ops",
+      "fundedDate": "",
+      "paidDate": "2026-08-17"
+    },
+    {
+      "id": "2026-08-17-I02",
+      "date": "2026-08-17",
+      "type": "income",
+      "description": "ARF Financial \u2014 Referral",
+      "amount": 115.38,
+      "category": "Referral Fees",
+      "notes": "Referral Fees",
+      "dealSource": "ARF Financial",
+      "fundedDate": "",
+      "paidDate": "2026-08-17"
+    },
+    {
+      "id": "2026-08-17-I03",
+      "date": "2026-08-17",
+      "type": "income",
+      "description": "Bull Building LLC \u2014 Loan Payment #3 (HC-063020261)",
+      "amount": 1166.67,
+      "category": "Loan Repayments",
+      "notes": "Payment #3 (log 8/14, Cleared). Arrived as \"Online Transfer From Chk ...9789\" directly into Syndication Checking (...9869) \u2014 not via Huge Checking. Principal/interest split left to Lucy.",
+      "dealSource": "Bull Building LLC (HC-063020261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-17"
+    },
+    {
+      "id": "2026-08-18-I01",
+      "date": "2026-08-18",
+      "type": "income",
+      "description": "National Legacy \u2014 Mill-Wood Designs LLC",
+      "amount": 4887.5,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / Mill-Wood Designs LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-18"
+    },
+    {
+      "id": "2026-08-18-I02",
+      "date": "2026-08-18",
+      "type": "income",
+      "description": "Zelle from CapitalQuest Consulting LLC",
+      "amount": 485.0,
+      "category": "Other Income",
+      "notes": "Same treatment as prior CapitalQuest Zelles",
+      "dealSource": "CapitalQuest Consulting LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-18"
+    },
+    {
+      "id": "2026-08-19-I01",
+      "date": "2026-08-19",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #4 attempt (HC-071720261)",
+      "amount": 234.38,
+      "category": "Loan Repayments",
+      "notes": "Payment #4 (log 8/14) ACH pull \u2014 returned 08/20 (see reversal). Nets to $0 in Aug.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-19"
+    },
+    {
+      "id": "2026-08-20-D01",
+      "date": "2026-08-20",
+      "type": "expense",
+      "description": "Remitly \u2014 VA Payment",
+      "amount": 22.99,
+      "category": "Affiliates",
+      "cardOwner": "Luke Heugly",
+      "recurring": false,
+      "notes": "VA payment via Remitly; debit card 3826"
+    },
+    {
+      "id": "2026-08-20-E10",
+      "date": "2026-08-20",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 64.17,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-20-I01",
+      "date": "2026-08-20",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 2630.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-20-I02",
+      "date": "2026-08-20",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #4 Reversal (HC-071720261)",
+      "amount": -234.38,
+      "category": "Loan Repayments",
+      "notes": "ACH Settlement \"Elec Debit\" \u2014 pull #4 returned. Log: #4 Paid Late, $234.00 via the 9/3 $702 wire (covers #4, #5, #6) \u2014 lands in SEPTEMBER.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-20"
+    },
+    {
+      "id": "2026-08-21-E10",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Zelle \u2014 Zac Stoll",
+      "amount": 2196.25,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Distribution"
+    },
+    {
+      "id": "2026-08-21-E11",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Zelle \u2014 Zac Stoll",
+      "amount": 2000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Distribution"
+    },
+    {
+      "id": "2026-08-21-E12",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 2196.25,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC"
+    },
+    {
+      "id": "2026-08-21-E13",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 1000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC"
+    },
+    {
+      "id": "2026-08-21-E14",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Gusto \u2014 AJS Trading LLC (Aaron Sonego)",
+      "amount": 3965.63,
+      "category": "Team Payroll",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Funds Aug 27 run"
+    },
+    {
+      "id": "2026-08-21-F01",
+      "date": "2026-08-21",
+      "type": "expense",
+      "description": "Domestic Wire Fee",
+      "amount": 25.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Outgoing wire \u2014 Derangula Inc"
+    },
+    {
+      "id": "2026-08-21-I01",
+      "date": "2026-08-21",
+      "type": "income",
+      "description": "Kapitus \u2014 Commission (Strategic Funding)",
+      "amount": 855.0,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "Kapitus (Strategic Funding)",
+      "fundedDate": "",
+      "paidDate": "2026-08-21"
+    },
+    {
+      "id": "2026-08-21-I02",
+      "date": "2026-08-21",
+      "type": "income",
+      "description": "SBFS LLC \u2014 Commission",
+      "amount": 400.0,
+      "category": "Commissions",
+      "notes": "Vendrpaymt",
+      "dealSource": "SBFS LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-21"
+    },
+    {
+      "id": "2026-08-21-I03",
+      "date": "2026-08-21",
+      "type": "income",
+      "description": "Easy Pay Direct \u2014 Residual",
+      "amount": 21.12,
+      "category": "Other Income",
+      "notes": "Residual via Mercury.com",
+      "dealSource": "Easy Pay Direct",
+      "fundedDate": "",
+      "paidDate": "2026-08-21"
+    },
+    {
+      "id": "2026-08-22-A01",
+      "date": "2026-08-22",
+      "type": "expense",
+      "description": "PDFfiller",
+      "amount": 96.0,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-23-C01",
+      "date": "2026-08-23",
+      "type": "expense",
+      "description": "Quick Quack Car Wash",
+      "amount": 24.99,
+      "category": "Luke",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-24-E10",
+      "date": "2026-08-24",
+      "type": "expense",
+      "description": "Zelle \u2014 Huge Enterprises LLC",
+      "amount": 1000.0,
+      "category": "Owner Draws",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Luke \u2014 Huge Enterprises LLC. With 08/21 $1,000 matches Zac's 08/21 $2,000"
+    },
+    {
+      "id": "2026-08-26-E10",
+      "date": "2026-08-26",
+      "type": "expense",
+      "description": "Zelle \u2014 Full Stack AI Automation",
+      "amount": 1500.0,
+      "category": "Software & Tools",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-26-I01",
+      "date": "2026-08-26",
+      "type": "income",
+      "description": "National Legacy \u2014 Planetary Contractors LLC",
+      "amount": 2213.48,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / Planetary Contractors LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-26"
+    },
+    {
+      "id": "2026-08-26-I02",
+      "date": "2026-08-26",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #5 attempt (HC-071720261)",
+      "amount": 234.38,
+      "category": "Loan Repayments",
+      "notes": "Payment #5 (log 8/21) ACH pull \u2014 returned 08/27 (see reversal). Nets to $0 in Aug.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-26"
+    },
+    {
+      "id": "2026-08-27-I01",
+      "date": "2026-08-27",
+      "type": "income",
+      "description": "Enova International \u2014 Commission",
+      "amount": 4800.0,
+      "category": "Commissions",
+      "notes": "New lender Aug 2026 (EDI Pymnts)",
+      "dealSource": "Enova International",
+      "fundedDate": "",
+      "paidDate": "2026-08-27"
+    },
+    {
+      "id": "2026-08-27-I02",
+      "date": "2026-08-27",
+      "type": "income",
+      "description": "Gifted Youth Music And Arts Studio LLC \u2014 Loan Payment #5 Reversal (HC-071720261)",
+      "amount": -234.38,
+      "category": "Loan Repayments",
+      "notes": "ACH Settlement \"Elec Debit\" \u2014 pull #5 returned. Log: #5 Paid Late, $234.00 via the 9/3 $702 wire (covers #4, #5, #6) \u2014 lands in SEPTEMBER.",
+      "dealSource": "Gifted Youth Music And Arts Studio LLC (HC-071720261)",
+      "fundedDate": "",
+      "paidDate": "2026-08-27"
+    },
+    {
+      "id": "2026-08-28-E10",
+      "date": "2026-08-28",
+      "type": "expense",
+      "description": "M Merchant \u2014 Daily Discount",
+      "amount": 94.43,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-28-E11",
+      "date": "2026-08-28",
+      "type": "expense",
+      "description": "Gusto \u2014 La Vau Real Estate, Inc.",
+      "amount": 1875.0,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto \u2014 funds Sep 3 run"
+    },
+    {
+      "id": "2026-08-28-E12",
+      "date": "2026-08-28",
+      "type": "expense",
+      "description": "Gusto \u2014 Peak Point Consulting LLC",
+      "amount": 560.0,
+      "category": "Affiliates",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "1099 contractor via Gusto \u2014 funds Sep 3 run"
+    },
+    {
+      "id": "2026-08-28-I01",
+      "date": "2026-08-28",
+      "type": "income",
+      "description": "M Merchant \u2014 Merchant Deposit",
+      "amount": 3870.0,
+      "category": "Merchant Deposits",
+      "notes": ""
+    },
+    {
+      "id": "2026-08-28-I02",
+      "date": "2026-08-28",
+      "type": "income",
+      "description": "CFG Merchant Solutions \u2014 Commission",
+      "amount": 600.0,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "CFG Merchant Solutions",
+      "fundedDate": "",
+      "paidDate": "2026-08-28"
+    },
+    {
+      "id": "2026-08-30-C01",
+      "date": "2026-08-30",
+      "type": "expense",
+      "description": "Starbucks",
+      "amount": 7.0,
+      "category": "Luke",
+      "cardOwner": "Ink Card 2450 (Luke)",
+      "recurring": false,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-31-A01",
+      "date": "2026-08-31",
+      "type": "expense",
+      "description": "Anthropic \u2014 Claude AI",
+      "amount": 106.6,
+      "category": "Software & Tools",
+      "cardOwner": "Amex 31005 (Zac)",
+      "recurring": true,
+      "notes": ""
+    },
+    {
+      "id": "2026-08-31-F01",
+      "date": "2026-08-31",
+      "type": "expense",
+      "description": "Monthly Service Fee",
+      "amount": 15.0,
+      "category": "Banking & Payment Processing",
+      "cardOwner": "Business Checking",
+      "recurring": false,
+      "notes": "Not waived \u2014 Aug min daily balance $1,007.47 < $2,000"
+    },
+    {
+      "id": "2026-08-31-I01",
+      "date": "2026-08-31",
+      "type": "income",
+      "description": "National Legacy \u2014 The Conner Group LLC #3",
+      "amount": 1298.5,
+      "category": "Commissions",
+      "notes": "",
+      "dealSource": "National Legacy / The Conner Group LLC",
+      "fundedDate": "",
+      "paidDate": "2026-08-31"
     }
   ],
   "categories": {
@@ -9312,6 +10493,70 @@
             "amount": 0.14,
             "from": "",
             "notes": "Interest Payment"
+          },
+          {
+            "id": "SYN-2026-08-03-01",
+            "date": "2026-08-03",
+            "type": "deposit",
+            "amount": 1166.67,
+            "from": "Account ...9789 (Bull Building payment source)",
+            "notes": "Online Transfer From Chk ...9789 \u2014 Bull Building LLC loan payment #2 (HC-063020261); booked as Loan Repayments income"
+          },
+          {
+            "id": "SYN-2026-08-03-02",
+            "date": "2026-08-03",
+            "type": "deposit",
+            "amount": 235.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer \u2014 Gifted Youth loan payment #1 (makeup) swept"
+          },
+          {
+            "id": "SYN-2026-08-07-01",
+            "date": "2026-08-07",
+            "type": "deposit",
+            "amount": 7000.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "SYN-2026-08-14-01",
+            "date": "2026-08-14",
+            "type": "deposit",
+            "amount": 3000.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "SYN-2026-08-21-01",
+            "date": "2026-08-21",
+            "type": "deposit",
+            "amount": 5000.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "SYN-2026-08-25-01",
+            "date": "2026-08-25",
+            "type": "deposit",
+            "amount": 4268.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer ($2,500 + $1,768 of Aaron Sonego Zelles)"
+          },
+          {
+            "id": "SYN-2026-08-28-01",
+            "date": "2026-08-28",
+            "type": "deposit",
+            "amount": 7500.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "SYN-2026-08-31-01",
+            "date": "2026-08-31",
+            "type": "interest",
+            "amount": 0.14,
+            "from": "",
+            "notes": "Interest Payment"
           }
         ]
       },
@@ -9344,6 +10589,38 @@
             "amount": 500.0,
             "from": "Business Checking (...1372)",
             "notes": "Online Transfer To Checking"
+          },
+          {
+            "id": "HSV-2026-08-03-01",
+            "date": "2026-08-03",
+            "type": "withdrawal",
+            "amount": 700.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer To Checking (dated 08/01)"
+          },
+          {
+            "id": "HSV-2026-08-07-01",
+            "date": "2026-08-07",
+            "type": "deposit",
+            "amount": 3624.46,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "HSV-2026-08-14-01",
+            "date": "2026-08-14",
+            "type": "deposit",
+            "amount": 1500.0,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer"
+          },
+          {
+            "id": "HSV-2026-08-31-01",
+            "date": "2026-08-31",
+            "type": "interest",
+            "amount": 0.04,
+            "from": "",
+            "notes": "Interest Payment"
           }
         ]
       },
@@ -9417,6 +10694,54 @@
             "amount": 25.0,
             "from": "",
             "notes": "Online Domestic Wire Fee"
+          },
+          {
+            "id": "SYC-2026-08-14-01",
+            "date": "2026-08-14",
+            "type": "deposit",
+            "amount": 234.38,
+            "from": "Business Checking (...1372)",
+            "notes": "Online Transfer \u2014 Gifted Youth loan payment #3 swept"
+          },
+          {
+            "id": "SYC-2026-08-14-02",
+            "date": "2026-08-14",
+            "type": "deposit",
+            "amount": 0.16,
+            "from": "Vitalcap Fund",
+            "notes": "Vitalcap Fund ACH (Preauthpmt) \u2014 return on syndicated deals with VitaCap (Emerald Group Holdings). Stays in Syndication Checking; not booked as operating income (Luke)"
+          },
+          {
+            "id": "SYC-2026-08-17-01",
+            "date": "2026-08-17",
+            "type": "deposit",
+            "amount": 1166.67,
+            "from": "Account ...9789 (Bull Building payment source)",
+            "notes": "Online Transfer From Chk ...9789 \u2014 Bull Building LLC loan payment #3 (HC-063020261); booked as Loan Repayments income"
+          },
+          {
+            "id": "SYC-2026-08-17-02",
+            "date": "2026-08-17",
+            "type": "deposit",
+            "amount": 86.54,
+            "from": "Vitalcap Fund",
+            "notes": "Vitalcap Fund ACH (Preauthpmt) \u2014 return on syndicated deals with VitaCap (Emerald Group Holdings). Stays in Syndication Checking; not booked as operating income (Luke)"
+          },
+          {
+            "id": "SYC-2026-08-24-01",
+            "date": "2026-08-24",
+            "type": "deposit",
+            "amount": 388.63,
+            "from": "Vitalcap Fund",
+            "notes": "Vitalcap Fund ACH (Preauthpmt) \u2014 return on syndicated deals with VitaCap (Emerald Group Holdings). Stays in Syndication Checking; not booked as operating income (Luke)"
+          },
+          {
+            "id": "SYC-2026-08-31-01",
+            "date": "2026-08-31",
+            "type": "deposit",
+            "amount": 388.63,
+            "from": "Vitalcap Fund",
+            "notes": "Vitalcap Fund ACH (Preauthpmt) \u2014 return on syndicated deals with VitaCap (Emerald Group Holdings). Stays in Syndication Checking; not booked as operating income (Luke)"
           }
         ]
       }
@@ -9430,7 +10755,7 @@
       "issuer": "Amex",
       "lastFour": "1005",
       "creditLimit": 13500.0,
-      "currentBalance": 10295.04,
+      "currentBalance": 9945.65,
       "apr": {
         "introRate": 0,
         "introEndDate": "2027-04-20",
@@ -9438,8 +10763,8 @@
       },
       "payments": [],
       "charges": [],
-      "balanceAsOf": "2026-07-31",
-      "notes": "Jul 1-31 Total Spend $1,299.57 (net of -$1.75 PDFfiller credit and -$52.98 cash rebate); payment $91.00 autopay on 07/14. Est. balance $10,295.04 (9,086.47 + 1,299.57 - 91.00). Estimate \u2014 Amex online shows activity, not statement balance."
+      "balanceAsOf": "2026-08-31",
+      "notes": "Aug 1-31 Total Spend $650.61 (charges $675.64 net of -$25.03 cash rebate); payment $1,000.00 on 08/07 (from Checking). Est. balance $9,945.65 (10,295.04 + 650.61 - 1,000.00). Estimate \u2014 Amex online shows activity, not statement balance."
     },
     {
       "id": "luke-chase",
@@ -9448,7 +10773,7 @@
       "issuer": "Chase",
       "lastFour": "2450",
       "creditLimit": 5000.0,
-      "currentBalance": 24.99,
+      "currentBalance": 7.0,
       "apr": {
         "introRate": 0,
         "introEndDate": "2026-06-11",
@@ -9456,8 +10781,8 @@
       },
       "payments": [],
       "charges": [],
-      "balanceAsOf": "2026-07-31",
-      "notes": "Jul 1-31: charges $615.54 (plus a Jun 30 Electrify America $16.19 straggler booked to June); payment $1,291.95 on 07/24 (autopay). Actual current balance $24.99 (QuickQuack 07/23 only) per Chase for Business as of Aug 2 \u2014 supersedes the June estimate of $1,116.81, which ran high. On 22.74% APR (0% intro expired 06/11/26)."
+      "balanceAsOf": "2026-08-31",
+      "notes": "Aug 1-31: charges $158.94; payments $25.80 (08/06), $97.14 (08/14), $53.99 (08/28) = $176.93. Balance $7.00 (Starbucks 08/30 only) = $24.99 + $158.94 - $176.93. On 22.74% APR (0% intro expired 06/11/26)."
     },
     {
       "id": "luke-wf",
@@ -9548,7 +10873,28 @@
       "07/31 Transfer To MMA 1577 \u2014 $750 (savings)",
       "Ink 2450 Jul 24: Payment Thank You-Mobile \u2014 -$1,291.95 (CC payment)",
       "Amex 31005 Jul 14: Autopay Payment - Thank You \u2014 -$91.00 (CC payment)",
-      "Syndication Checking 9869: two $25 online domestic wire fees (07/29, 07/31) tracked in the account panel only, consistent with how ...1577 activity is handled"
+      "Syndication Checking 9869: two $25 online domestic wire fees (07/29, 07/31) tracked in the account panel only, consistent with how ...1577 activity is handled",
+      "08/03 Transfer From MMA 1766 \u2014 $700 (savings)",
+      "08/03 Transfer To MMA 1577 \u2014 $235 (savings; Gifted Youth makeup payment swept)",
+      "08/07 Transfer To MMA 1766 \u2014 $3,624.46 (savings)",
+      "08/07 Transfer To MMA 1577 \u2014 $7,000 (savings)",
+      "08/14 Transfer To MMA 1577 \u2014 $3,000 (savings)",
+      "08/14 Transfer To MMA 1766 \u2014 $1,500 (savings)",
+      "08/14 Transfer To Syndication Checking 9869 \u2014 $234.38 (Gifted Youth 08/12 payment swept)",
+      "08/21 Transfer To MMA 1577 \u2014 $5,000 (savings)",
+      "08/25 Transfer To MMA 1577 \u2014 $4,268 (savings; $2,500 + $1,768 of Aaron Sonego Zelles)",
+      "08/28 Transfer To MMA 1577 \u2014 $7,500 (savings)",
+      "08/05 Wells Fargo Card ACH Pmt \u2014 $1,000 (CC payment, WF 4172)",
+      "08/07 American Express ACH Pmt \u2014 $1,000 (CC payment)",
+      "08/07 Payment To Chase Card 2450 \u2014 $25.80 (CC payment)",
+      "08/14 Payment To Chase Card 2450 \u2014 $97.14 (CC payment)",
+      "08/28 Payment To Chase Card 2450 \u2014 $53.99 (CC payment)",
+      "Ink 2450 Aug 6/14/28: Payment Thank You-Mobile \u2014 -$25.80 / -$97.14 / -$53.99 (CC payment)",
+      "Amex 31005 Aug 7: Online Payment - Thank You \u2014 -$1,000.00 (CC payment)",
+      "08/04 Wells Fargo IFI account-verification micro-deposits \u2014 +$0.32 +$0.16 in, -$0.48 out (nets to $0)",
+      "08/21 Domestic Wire To Derangula Inc (Stoughton MA) \u2014 $6,768 (SELF-FUNDED RBF LOAN DISBURSEMENT HC-08202061 / note receivable, not an expense. Payments $670.50 weekly from 8/28. Capital put up by Aaron Sonego \u2014 see next line)",
+      "08/21-08/25 Zelle From Aaron Sonego \u2014 $2,500 + $2,500 + $1,768 = $6,768 (Aaron funded the Derangula loan HC-08202061; ALL payments pass through to Aaron, incl. #1 which was withheld and paid to him later (Luke) \u2014 deal capital, not income)",
+      "Syndication Checking 9869: Vitalcap Fund ACH deposits ($863.96) = returns from syndicated deals with VitaCap \u2014 stay in Syndication Checking, tracked in the account panel only (Luke)"
     ]
   }
 }
